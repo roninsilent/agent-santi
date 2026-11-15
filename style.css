@@ -1,0 +1,40 @@
+body{
+    margin:0;
+    font-family:Segoe UI,sans-serif;
+    background:#f5f6f8;
+}
+
+header{
+    background:#1f2937;
+    color:white;
+    padding:20px;
+}
+
+main{
+    padding:20px;
+}
+
+#dashboard{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:15px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 2px 8px rgba(0,0,0,.1);
+}
+
+.card span{
+    font-size:32px;
+    font-weight:bold;
+}
+
+#informe{
+    background:white;
+    margin-top:20px;
+    padding:25px;
+    border-radius:12px;
+}
